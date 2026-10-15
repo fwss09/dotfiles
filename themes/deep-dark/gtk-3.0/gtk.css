@@ -1,0 +1,114 @@
+/* Modern Minimalist Dark Theme for Thunar */
+
+/* Main window */
+window.thunar,
+.thunar {
+    background-color: #0d0f14;
+    color: #e6edf3;
+}
+
+/* Sidebar / Places */
+.thunar .sidebar,
+.thunar .sidebar treeview,
+.thunar .sidebar .view {
+    background-color: #12151c;
+    color: #8b949e;
+    border-right: 1px solid #21262d;
+    padding: 6px;
+    font-size: 10pt;
+}
+
+.thunar .sidebar treeview:hover {
+    background-color: #161922;
+    color: #e6edf3;
+}
+
+.thunar .sidebar treeview:selected {
+    background-color: #21262d;
+    color: #e6edf3;
+    border-left: 2px solid #8b949e;
+}
+
+/* Rubberband (mouse drag selection box) */
+.thunar rubberband,
+rubberband,
+.rubberband,
+flowbox rubberband,
+treeview.view rubberband {
+    background-color: rgba(139, 148, 158, 0.15);
+    border: 1px solid #8b949e;
+    border-radius: 0px;
+}
+
+/* Main View (Icons & Details) */
+.thunar .standard-view,
+.thunar .standard-view .view,
+.thunar treeview {
+    background-color: #0d0f14;
+    color: #e6edf3;
+}
+
+/* Selected Items */
+.thunar .standard-view .view:selected,
+.thunar treeview:selected {
+    background-color: #21262d;
+    color: #e6edf3;
+    border-radius: 0px;
+}
+
+/* Hover Items */
+.thunar .standard-view .view:hover {
+    background-color: #141720;
+}
+
+/* Header bar / Toolbar */
+.thunar toolbar,
+.thunar headerbar,
+.thunar .path-bar-box {
+    background-color: #0d0f14;
+    border-bottom: 1px solid #21262d;
+    padding: 6px 8px;
+}
+
+/* Path buttons (bread crumbs) */
+.thunar .path-bar-box button {
+    background-color: #161922;
+    border: 1px solid #21262d;
+    border-radius: 4px;
+    color: #c9d1d9;
+    padding: 4px 8px;
+    margin: 2px;
+}
+
+.thunar .path-bar-box button:hover {
+    background-color: #1f242c;
+    color: #58a6ff;
+    border-color: #30363d;
+}
+
+/* Action / navigation buttons */
+.thunar toolbar button {
+    background-color: transparent;
+    border: none;
+    color: #8b949e;
+    padding: 4px;
+    margin: 2px;
+}
+
+.thunar toolbar button:hover {
+    background-color: #161922;
+    color: #e6edf3;
+    border-radius: 4px;
+}
+
+/* Scrollbars */
+scrollbar slider {
+    background-color: #21262d;
+    border-radius: 4px;
+    min-width: 6px;
+    min-height: 6px;
+}
+
+scrollbar slider:hover {
+    background-color: #30363d;
+}
